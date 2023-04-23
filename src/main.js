@@ -1,4 +1,7 @@
-import { createApp } from 'vue'
+import Vue, { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import 'ant-design-vue/dist/antd.css';
+import Antd from 'ant-design-vue';
+
+createApp(App).use(Antd).mount('#app')
